@@ -189,7 +189,7 @@ body {
 }
 
 .footer-link-address:hover {
-  color: tomato;
+  color: var(--third-text-color);
 }
 
 .footer-link-address:focus {
