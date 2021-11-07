@@ -181,7 +181,6 @@ body {
 }
 
 .footer-link-address {
-  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: var(--second-letter-spacing);
@@ -197,7 +196,6 @@ body {
 }
 
 .footer-link-mail {
-  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: var(--second-letter-spacing);
