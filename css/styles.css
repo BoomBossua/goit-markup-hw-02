@@ -1,0 +1,225 @@
+/* универсальный селектор */
+:root {
+  --main-text-color: #212121;
+  --second-text-color: #757575;
+  --third-text-color: #2196f3;
+  --fort-text-color: rgba(255, 255, 255, 0.6);
+  --main-btn-color: #2196f3;
+  --heder-text-color: #ffffff;
+  --one-letter-spacing: 0.02em;
+  --second-letter-spacing: 0.03em;
+  --third-letter-spacing: 0.06em;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+  background: #e5e5e5;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* header section */
+
+.header-logo {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.38;
+  --letter-spacing-text: 0.03em;
+  color: #000000;
+}
+
+.header-logo-color {
+  color: var(--third-text-color);
+}
+
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: var(--one-letter-spacing);
+  color: var(--main-text-color);
+}
+
+.header-link-studio {
+  color: var(--third-text-color);
+}
+
+.header-cont-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: var(--one-letter-spacing);
+}
+.header-mail-color {
+  color: var(--third-text-color);
+}
+
+.header-mail-color:hover {
+  color: tomato;
+}
+.header-mail-color:focus {
+  color: rgb(18, 235, 43);
+}
+
+.header-tel-color {
+  color: var(--second-text-color);
+}
+
+.header-tel-color:hover {
+  color: tomato;
+}
+
+.header-tel-color:focus {
+  color: rgb(18, 235, 43);
+}
+/* heroy section */
+
+.heroy {
+  background: #2f303a;
+}
+
+.heroy-titel {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--heder-text-color);
+  letter-spacing: var(--third-letter-spacing);
+}
+
+.heroy-bth-color {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: var(--heder-text-color);
+  letter-spacing: var(--third-letter-spacing);
+  background-color: var(--main-btn-color);
+
+  cursor: pointer;
+}
+
+/* features section */
+
+.features-list-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.42;
+  text-transform: uppercase;
+  letter-spacing: var(--second-letter-spacing);
+  color: var(--main-text-color);
+}
+
+.features-list-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: var(--second-letter-spacing);
+  color: var(--second-text-color);
+}
+
+/* our work section- */
+.our-work-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.66;
+  letter-spacing: var(--second-letter-spacing);
+  color: var(--main-text-color);
+}
+
+/* our team section */
+.our-team-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.66;
+  letter-spacing: var(--second-letter-spacing);
+  color: var(--main-text-color);
+}
+
+.our-team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: var(--second-letter-spacing);
+  color: var(--main-text-color);
+}
+
+.our-team-position {
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: var(--second-letter-spacing);
+  color: var(--second-text-color);
+}
+
+/* footer section */
+.footer-logo {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: var(--second-letter-spacing);
+  color: var(--heder-text-color);
+}
+
+.footer-logo-color {
+  color: var(--third-text-color);
+}
+
+.footer-link-address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: var(--second-letter-spacing);
+  color: var(--heder-text-color);
+}
+
+.footer-link-address:hover {
+  color: tomato;
+}
+
+.footer-link-address:focus {
+  color: rgb(18, 235, 43);
+}
+
+.footer-link-mail {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: var(--second-letter-spacing);
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-link-mail:hover {
+  color: tomato;
+}
+
+.footer-link-mail:focus {
+  color: rgb(18, 235, 43);
+}
+
+.footer-link-tel {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: var(--second-letter-spacing);
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-link-tel:hover {
+  color: tomato;
+}
+
+.footer-link-tel:focus {
+  color: rgb(18, 235, 43);
+}
