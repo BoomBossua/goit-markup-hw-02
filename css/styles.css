@@ -14,7 +14,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #000000;
-  background: #e5e5e5;
+  background: #ffffff;
 }
 
 .list {
@@ -49,7 +49,7 @@ body {
 }
 
 .header-link-studio {
-  color: var(--third-text-color);
+  color: var(--main-text-color);
 }
 
 .header-cont-list {
@@ -59,11 +59,11 @@ body {
   letter-spacing: var(--one-letter-spacing);
 }
 .header-mail-color {
-  color: var(--third-text-color);
+  color: var(--second-text-color);
 }
 
 .header-mail-color:hover {
-  color: tomato;
+  color: var(--third-text-color);
 }
 .header-mail-color:focus {
   color: rgb(18, 235, 43);
@@ -74,7 +74,7 @@ body {
 }
 
 .header-tel-color:hover {
-  color: tomato;
+  color: var(--third-text-color);
 }
 
 .header-tel-color:focus {
@@ -163,6 +163,10 @@ body {
 }
 
 /* footer section */
+.footer-section {
+  background-color: #2f303a;
+}
+
 .footer-logo {
   font-family: Raleway;
   font-weight: bold;
@@ -201,7 +205,7 @@ body {
 }
 
 .footer-link-mail:hover {
-  color: tomato;
+  color: var(--third-text-color);
 }
 
 .footer-link-mail:focus {
@@ -217,7 +221,7 @@ body {
 }
 
 .footer-link-tel:hover {
-  color: tomato;
+  color: var(--third-text-color);
 }
 
 .footer-link-tel:focus {
