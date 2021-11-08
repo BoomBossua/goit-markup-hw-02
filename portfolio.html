@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,117 +10,66 @@
         rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
-
 <body>
-    <!--header section-->
-    <header class="header">
-        <nav class="header-nav">
-            <a class="header-logo link" href=""><span class="header-logo-color">Web</span>Studio</a>
-            <ul class="list hedar-nav">
-                <li class="header-item"> <a class="link header-link header-link-studio"
-                        href="./index.html">Студия</a></li>
-                <li class="header-item"> <a class="link header-link" href="./index.html">Портфолио</a></li>
-                <li class="header-item"> <a class="link header-link" href="">Контакты</a></li>
-            </ul>
-        </nav>
+        <!--header section-->
+<header>
+    <nav>
+        <a class="header-logo link" href=""><span class="header-logo-color">Web</span>Studio</a>
+        <ul class="list hedar-nav">
+            <li class="header-item"> <a class="link header-link header-link-studio" href="./index.html">Студия</a></li>
+            <li class="header-item"> <a class="link header-link" href="./index.html">Портфолио</a></li>
+            <li class="header-item"> <a class="link header-link" href="">Контакты</a></li>
+        </ul>
+    </nav>
         <ul class="list header-cont-list">
-            <li class="header-mail"> <a class="link header-mail-color"
-                    href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="header-mail"> <a class="link header-mail-color" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
             <li class="header-tel"> <a class="link header-tel-color" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
-    </header>
-    <main>
-        <!--heroy section-->
-        <section class="heroy">
-            <h1 class="heroy-titel">Эффективные решения для вашего бизнеса</h1>
-            <p class="heroy-bth"><button class="heroy-bth-color">Заказать услугу</button></p>
-            </section>
+</header>
+<!--основной контент-->
+<main>
+        <!--кнопки-->
+        <ul>
+            <li> 
+                <button class="filtr-butto"> Все</button>
+            </li>
+            <li> 
+                <button class="filtr-butto">Веб-сайты</button></li>
+            <li> 
+                <button class="filtr-butto">Приложения</button></li>
+            <li> 
+                <button class="filtr-butto">Дизайн</button></li>
+            <li> 
+                <button class="filtr-butto">Маркетинг</button></li>
+        </ul>
 
-        <!--features section-->
-        <section>
-            <h2 hidden>Особенности</h2>
-            <ul class="list features-list">
-                <li>
-                    <h3 class="features-list-title">Внимание к деталям</h3>
-                    <p class="features-list-text">
-                        Идейные соображения, а также начало повседневной работы по формированию позиции.
-                    </p>
-                </li>
-                <li>
-                    <h3 class="features-list-title">Пунктуальность</h3>
-                    <p class="features-list-text">
-                        Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
-                    </p>
-                </li>
-                <li>
-                    <h3 class="features-list-title">Планирование</h3>
-                    <p class="features-list-text">
-                        Равным образом консультация с широким активом в значительной степени обуславливает.
-                    </p>
-                </li>
-                <li>
-                    <h3 class="features-list-title">Современные технологии</h3>
-                    <p class="features-list-text">
-                        Значимость этих проблем настолько очевидна, что реализация плановых заданий.
-                    </p>
-                </li>
-            </ul>
-        </section>
+<!--портфолио-->
+<ul>
+    <li>
+        <img src="./images/photo-7-hw-2.jpg" alt="">
+        <p>Технокряк</p>
+        <p>Веб-сайт</p>
+    </li>
 
-        <!--our work section-->
-        <section>
-            <h2 class="our-work-title">Чем мы занимаемся</h2>
-            <ul class="list">
-                <li><img src="images/photo(0).jpg" alt="our work 1" width="370" /></li>
-                <li><img src="images/photo(1).jpg" alt="our work 2" width="370" /></li>
-                <li><img src="images/photo(2).jpg" alt="our work 3" width="370" /></li>
-            </ul>
-        </section>
+<li>
+    <img src="./images/photo-8-hw-2.jpg" alt="">
+    <p>Постер New Orlean vs Golden Star</p>
+    <p>Дизайн</p>
+</li>
 
-        <!--our team section-->
-        <section>
-            <h2 class="our-team-title">Наша команда</h2>
-            <ul class="list">
-                <li>
-                    <img src="images/photo(3).jpg" alt="фото Игорь Демьяненко" width="270" />
-                    <p class="our-team-name">Игорь Демьяненко</p>
-                    <p class="our-team-position">Product Designer</p>
-                </li>
-                <li>
-                    <img src="images/photo(4).jpg" alt="фото Ольга Репина" width="270" />
-                    <p class="our-team-name">Ольга Репина</p>
-                    <p class="our-team-position">Frontend Developer</p>
-                </li>
-                <li>
-                    <img src="images/photo(5).jpg" alt="фото Николай Тарасов" width="270" />
-                    <p class="our-team-name">Николай Тарасов</p>
-                    <p class="our-team-position">Marketing</p>
-                </li>
-                <li>
-                    <img src="images/photo(6).jpg" alt="фото Михаил Ермаков" width="270" />
-                    <p class="our-team-name">Михаил Ермаков</p>
-                    <p class="our-team-position">UI Designer</p>
-                </li>
-            </ul>
-        </section>
-    </main>
-    <!--footer section-->
-    <footer class="footer-section">
-        <a class="link footer-logo" href=""><span class="footer-logo-color">Web</span>Studio</a>
-        <address>
-            <ul class="list footer-list">
-                <li>
-                    <a class="link footer-link-address" href="https://goo.gl/maps/893jYbpZrBfaa6KE9"
-                        rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a>
-                </li>
-                <li>
-                    <a class="link footer-link-mail" href="mailto:info@example.com">info@example.com</a>
-                </li>
-                <li>
-                    <a class="link footer-link-tel" href="tel:+380991111111">+38 099 111 11 11</a>
-                </li>
-            </ul>
-        </address>
-    </footer>
+
+
+
+
+
+</ul>
+
+
+
+</main>
+
+
+
 </body>
 </html>
