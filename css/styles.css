@@ -225,3 +225,45 @@ body {
 .footer-link-tel:focus {
   color: rgb(18, 235, 43);
 }
+
+/* btn section */
+
+.btn-nav {
+  cursor: pointer;
+
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  text-align: center;
+  letter-spacing: var(--second-letter-spacing);
+  color: var(--main-text-color);
+
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.btn-nav:hover {
+  background-color: #2196f3;
+}
+
+/* portfolio section */
+
+.portfolio-img {
+}
+
+.portfolio-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  left: var(--third-letter-spacing);
+  color: var(--main-text-color);
+}
+
+.portfolio-filter {
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: var(--second-letter-spacing);
+  color: var(--second-text-color);
+}
