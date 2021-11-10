@@ -52,6 +52,14 @@ body {
   color: var(--main-text-color);
 }
 
+.header-link-studio:hover {
+  color: var(--third-text-color);
+}
+
+.header-link:hover {
+  color: var(--third-text-color);
+}
+
 .header-cont-list {
   font-weight: 500;
   font-size: 14px;
